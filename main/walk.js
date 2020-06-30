@@ -4,28 +4,19 @@ export default class Walk {
     if (walk.length != 10) {
       return false
     }
-    if (this.returnsToStart(walk) === false) {
-      return false
-    }
-    return true
+    return (this._returnsToStart(walk))
   }
 
-  returnsToStart(walk) {
-    let east = 0
-    let west = 0
-    let north = 0
-    let south = 0
+  _returnsToStart(walk) {
+    let east = 0; let west = 0; let north = 0; let south = 0
     for(let i = 0; i < walk.length; i++) {
       if (walk[i] === 'w') {
         west += 1
-      }
-      if (walk[i] === 'e') {
+      } else if (walk[i] === 'e') {
         east += 1
-      }
-      if (walk[i] === 'n') {
+      } else if (walk[i] === 'n') {
         north += 1
-      }
-      if (walk[i] === 's') {
+      } else {
         south += 1
       }
     }
