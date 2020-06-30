@@ -41,9 +41,10 @@ Iterate through and see if there are an equal number of e&w
 |-------|--------|
 |['w', 'e'] | false |
 |['w', 's', 'e', 'e', 'n', 'n', 'e', 's', 'w', 'w'] | true |
+|['w', 's', 'e', 'n', 'n', 'e', 's', 'w', 'w', 'w', 'w'] | false |
 |['w', 's', 'e', 'n', 'n', 'e', 's', 'w', 'w', 'w'] | false |
 
-|['n', 'n', 's', 's', 'e', 'e', 'w', 'w'] | false |
-|['w', 'e'] | false |
+
+
 
 Thanks so much, I'll give it a read. I watched a great video yesterday that really explained what is was in the most simple way. 
