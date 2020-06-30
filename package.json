@@ -11,5 +11,11 @@
   "license": "ISC",
   "dependencies": {
     "jest": "^26.1.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.9.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "esm": "^3.2.25"
   }
 }
