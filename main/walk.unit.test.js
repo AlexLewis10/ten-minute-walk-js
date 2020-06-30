@@ -23,6 +23,11 @@ describe('Direction', () => {
   it('returns false if the number of blocks west and east is not equal', () => {
     expect(walk.isTenMinuteWalk(['w', 'w', 'w', 'w', 'w', 'w', 'e', 'e', 'e', 'e'])).toEqual(false)
   })
+
+  it('returns false if the number of blocks west and east is not equal', () => {
+    expect(walk.isTenMinuteWalk(['n', 'n', 'n', 'n', 'n', 'n', 's', 's', 's', 's'])).toEqual(false)
+  })
+  
 })
 
 
