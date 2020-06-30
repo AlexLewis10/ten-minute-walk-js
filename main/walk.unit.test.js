@@ -6,7 +6,10 @@ beforeEach(() => {
   walk = new Walk()
 })
 describe('Walk', () => {
-  it('Returns walk', () => {
-    expect(walk.isTenMinuteWalk()).toEqual('walk')
+  it('Returns false', () => {
+    expect(walk.isTenMinuteWalk()).toEqual(false)
   })
 })
+
+
+
