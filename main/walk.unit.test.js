@@ -6,8 +6,8 @@ beforeEach(() => {
   walk = new Walk()
 })
 describe('Walk', () => {
-  it('Returns false', () => {
-    expect(walk.isTenMinuteWalk()).toEqual(false)
+  it('Returns false when given an array with less than 10 items', () => {
+    expect(walk.isTenMinuteWalk(['w', 'e'])).toEqual(false)
   })
 })
 
