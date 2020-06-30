@@ -42,7 +42,8 @@ Iterate through and see if there are an equal number of e&w
 |['w', 'e'] | false |
 |['w', 's', 'e', 'e', 'n', 'n', 'e', 's', 'w', 'w'] | true |
 |['w', 's', 'e', 'n', 'n', 'e', 's', 'w', 'w', 'w', 'w'] | false |
-|['w', 's', 'e', 'n', 'n', 'e', 's', 'w', 'w', 'w'] | false |
+|['w', 'w', 'w', 'w', 'w', 'w', 'e', 'e', 'e', 'e'] | false |
+|['n', 'n', 'n', 'n', 'n', 'n', 's', 's', 's', 's'] | false |
 
 
 
