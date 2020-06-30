@@ -4,6 +4,9 @@ export default class Walk {
     if (walk.length < 10) {
       return false
     }
+    if (walk.length > 10) {
+      return false
+    }
     if (walk.length === 10) {
       return true
     }
